@@ -1,8 +1,18 @@
 # AeroLume Flight Tracker
 
-AeroLume is an Android flight-tracking prototype featuring a sleek, radar-style interface. Built with native Android UI practices, it offers adaptive layouts, robust search, flight detail screens, and an interactive, hardware-accelerated mapping experience powered by MapLibre.
+Android flight-tracking prototype with a radar-style UI. Kotlin, Jetpack Compose, MapLibre. Adaptive layouts, search, flight detail screens, and an inspector panel.
 
-**Disclaimer: Heavy work in progress / abandoned**
+Runs on bundled demo data only. There is no live flight API wired in: `FakeFlightDataRepository` and `DemoFlightCatalog` feed the UI.
+
+**Status: abandoned for now. Might pick it back up when I find the willpower.**
+
+## Build
+
+```bash
+./gradlew assembleDebug
+```
+
+Needs the Android SDK. `local.properties` is git-ignored, point `sdk.dir` at your install.
 
 ## License
 
